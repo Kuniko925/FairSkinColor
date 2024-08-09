@@ -10,3 +10,8 @@ Fairness is a crucial aspect of Trustworthy ML. In prior group fairness-oriented
 
 ## Evaluation Dataset
 
+| Dataset  | Tasks Summary |
+| ------------- | ------------- |
+| HAM10000  | Binary Classification  |
+| Celeb A  | Binary Classification  |
+| UTKFace  | Binary Classification  |
