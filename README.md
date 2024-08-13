@@ -10,8 +10,8 @@ Fairness is a crucial aspect of Trustworthy ML. In prior group fairness-oriented
 
 ## Evaluation Dataset
 
-| Dataset  | Tasks Summary |
-| ------------- | ------------- |
-| HAM10000  | Binary Classification  |
-| Celeb A  | Binary Classification  |
-| UTKFace  | Binary Classification  |
+| Dataset  | Tasks Summary | Skin Type (n) | URL |
+| ------------- | ------------- | ------------- | ------------- |
+| HAM10000  | Binary Classification  | 1 | https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000 |
+| Celeb A  | Binary Classification  | 2 | https://www.kaggle.com/datasets/jessicali9530/celeba-dataset |
+| UTKFace  | Binary Classification  | 4 | https://susanqq.github.io/UTKFace/ |
