@@ -19,4 +19,4 @@ Fairness is a crucial aspect of Trustworthy ML. In prior group fairness-oriented
 
 ## Measure Skin Colour
 
-![skin color measure](https://github.com/user-attachments/assets/1b16e54f-d775-496b-b467-4d712bbc430e)
+![skin color measure](images/Fig core.png)
