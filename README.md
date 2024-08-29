@@ -24,3 +24,9 @@ Fairness is a crucial aspect of Trustworthy ML. In prior group fairness-oriented
 ## Training Procedure
 
 ![learning procedure](https://github.com/Kuniko925/FairSkinColor/blob/main/images/Fig%20learning%20process.png)
+
+## Collaborators
+
+- Kuniko Paxton
+- Koorosh Aslansefat
+- Junya Norimatsu
