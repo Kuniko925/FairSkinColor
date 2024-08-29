@@ -28,5 +28,5 @@ Fairness is a crucial aspect of Trustworthy ML. In prior group fairness-oriented
 ## Collaborators
 
 - Kuniko Paxton
-- Koorosh Aslansefat
-- Junya Norimatsu
+- Dr Koorosh Aslansefat
+- Dr Junya Norimatsu
