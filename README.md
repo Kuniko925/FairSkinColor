@@ -1,32 +1,4 @@
-# FairSkinColor
+# Evaluating Fairness and Mitigating Bias in Machine Learning: A Novel Technique using Tensor Data and Bayesian Regression
 
 ## Abstract
-Fairness is a crucial aspect of Trustworthy ML. In prior group fairness-oriented research, the intricacies of image-based data have frequently been overlooked in favour of categorical features such as gender and ethnicity. This paper presents a new technique for verifying fairness for nuanced-sensitive attributes in ML for image classification tasks. To overcome the limitations of earlier work, we handle continuous numerical parameters like skin colour without classifying them, using statistical distance metrics. The paper demonstrates the benefits of this novel method when used for image classification tasks where skin tone is a sensitive characteristic.
-
-## Evaluation Models
-- VGG16
-- Efficientnet b3
-- ResNet50
-
-## Evaluation Dataset
-
-| Dataset  | Tasks Summary | Skin Type (n) | URL |
-| ------------- | ------------- | ------------- | ------------- |
-| HAM10000  | Binary Classification  | 1 | https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000 |
-| Celeb A  | Binary Classification  | 2 | https://www.kaggle.com/datasets/jessicali9530/celeba-dataset |
-| UTKFace  | Binary Classification  | 4 | https://susanqq.github.io/UTKFace/ |
-
-
-## Measure Skin Colour
-
-![skin color measure](https://github.com/Kuniko925/FairSkinColor/blob/main/images/Fig%20core.png)
-
-## Training Procedure
-
-![learning procedure](https://github.com/Kuniko925/FairSkinColor/blob/main/images/Fig%20learning%20process.png)
-
-## Collaborators
-
-- Kuniko Paxton
-- Dr Koorosh Aslansefat
-- Dr Junya Norimatsu
+Fairness is a critical component of Trustworthy AI. In this paper, we focus on Machine Learning (ML) and the performance of model predictions when dealing with skin color. Unlike other sensitive attributes, the nature of skin color differs significantly. In computer vision, skin color is represented as tensor data rather than categorical values or single numerical points. However, much of the research on fairness across sensitive groups has focused on categorical features such as gender and race. This paper introduces a new technique for evaluating fairness in ML for image classification tasks, specifically without the use of annotation. To address the limitations of prior work, we handle tensor data, like skin color, without classifying it rigidly. Instead, we convert it into probability distributions and apply statistical distance measures. This novel approach allows us to capture fine-grained nuances in fairness both within and across what would traditionally be considered distinct groups. Additionally, we propose an innovative training method to mitigate the latent biases present in conventional skin tone categorization. This method leverages color distance estimates calculated through Bayesian regression with polynomial functions, ensuring a more nuanced and equitable treatment of skin color in ML models.
